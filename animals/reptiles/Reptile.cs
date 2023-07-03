@@ -1,4 +1,5 @@
-﻿using System;
+﻿using animals.@interface;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 namespace animals.reptile
 
 {//abstract class  also derived form Animals inherted 
-    public class Reptile :Animals   {
+    public class Reptile :Animals  {
         // override abstract propirties from Animals
         public override string Name { get; set; }
         public override string Speacies { get; set; }
@@ -44,5 +45,6 @@ namespace animals.reptile
             Console.WriteLine("Reptile have lungs");
         }
 
+     
     }
 }
